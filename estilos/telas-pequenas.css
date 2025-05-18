@@ -113,6 +113,10 @@ header{
     margin: 50px 10px;
 }
 
+#sessao-contato{
+    background-position: left;
+}
+
 
 .formulario{
     flex-direction: column;

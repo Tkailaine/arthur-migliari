@@ -103,7 +103,8 @@ header{
 }
 
 #sessao-contato{
-    margin: 50px 10px;
+    margin: 50px 10px;  
+    background-position: left;
 }
 
 .formulario{
