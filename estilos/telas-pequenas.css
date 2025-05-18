@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+:root{
+    --azul-escuro:#003366;
+    --dourado-metalico: #D4AF37;
+    --azul-royal: #0055A5;
+    --dourado-claro: #F5DEB3;
+    --neutro: 	#2C2C2C;
+    --off-white: #F9F9F9;
+}
+
+header{
+    justify-content: end;
+    padding: 40px 20px;
+}
+
+#logo-escritorio{
+    width: 200px;
+ }
+
+
+#icone-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.linha{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+.menor{
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    padding-top: 60px;
+    background-color: var(--azul-escuro);
+    transition: left 0.3s;
+}
+
+#menu.active{
+    left: 0;
+}
+
+#menu ul{
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+#fechar-menu{
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   font-size: 1.3em;
+   background-color: transparent;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+
+.logo-cliente img{
+    width: 100px;
+}
+
+#bandeira{
+    background-position: 75% 0%;
+}
+
+#bandeira h1{
+    font-size: 1.4em;
+}
+
+#bandeira .btn-contato{
+    top: 72%;
+    left: 4%;
+    transform: translate(-4%, -72%);
+}
+
+#box-sobre{
+    flex-direction: column;
+    gap: 50px;
+}
+#titulo{
+   width: 80%;
+   margin: auto; 
+}
+
+#ft-advogado{
+    width: 350px;
+    height: 350px;
+}
+
+
+#valores{
+    flex-direction: column;
+    
+}
+
+#sessao-contato{
+    margin: 50px 10px;
+}
+
+
+.formulario{
+    flex-direction: column;
+}

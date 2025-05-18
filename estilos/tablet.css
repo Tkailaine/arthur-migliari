@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+header{
+    justify-content: end;
+    padding: 40px 20px;
+}
+
+#logo-escritorio{
+    width: 200px;
+ }
+
+
+#icone-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.linha{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+.menor{
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    padding-top: 60px;
+    background-color: var(--azul-escuro);
+    transition: left 0.3s;
+}
+
+#menu.active{
+    left: 0;
+}
+
+#menu ul{
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+#fechar-menu{
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   font-size: 1.3em;
+   background-color: transparent;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+
+
+.logo-cliente img{
+    width: 100px;
+    margin: auto; 
+}
+
+
+#bandeira{
+    background-position: 75% 0%;
+}
+
+#bandeira .btn-contato{
+    top: 71%;
+    left: 3%;
+    transform: translate(-3%, -71%);
+}
+
+#box-sobre{
+    flex-direction: column;
+    gap: 50px;
+}
+
+#titulo{
+   width: 80%;
+   margin: auto; 
+}
+
+#ft-advogado{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+
+
+
+#valores{
+    flex-direction: column;
+}
+
+#sessao-contato{
+    margin: 50px 10px;
+}
+
+.formulario{
+    flex-direction: column;
+}
+
