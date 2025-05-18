@@ -36,3 +36,19 @@ fecharMenu.addEventListener('click', () => {
     });
   });
   
+
+  // Selecione todos os links de ancoragem
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    // Realize a rolagem suave até a seção, com um ajuste de deslocamento
+    const targetId = this.getAttribute('href').substring(1); // Remove o '#' do link
+    const targetElement = document.getElementById(targetId);
+
+    window.scrollTo({
+      top: targetElement.offsetTop - 100, // Ajuste a posição do "respiro"
+      behavior: 'smooth'
+    });
+  });
+});
