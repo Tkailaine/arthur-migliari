@@ -56,6 +56,16 @@ header{
     text-transform: uppercase;
 }
 
+#menu a{
+  transition-duration: 0.3s;
+}
+
+#menu a:hover{
+  border: 2px solid var(--dourado-metalico);
+  padding: 5px 8px;
+  border-radius: 50px;
+}
+
 
 a{
     color: white;
