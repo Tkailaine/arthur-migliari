@@ -50,6 +50,13 @@ header{
   padding: 30px 50px;
 }
 
+#menu a:hover{
+  border: none;
+  padding: 0;
+  color: #ffc400;
+ 
+}
+
 #fechar-menu{
    position: absolute;
    top: 30px;
